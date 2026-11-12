@@ -1,0 +1,13 @@
+{
+  "R01": {"sentiment": "positive", "need": "portability", "pain_point": "unknown", "scenario": "commute", "purchase_barrier": "unknown"},
+  "R02": {"sentiment": "negative", "need": "unknown", "pain_point": "leakage", "scenario": "unknown", "purchase_barrier": "unknown"},
+  "R03": {"sentiment": "unknown", "need": "unknown", "pain_point": "unknown", "scenario": "unknown", "purchase_barrier": "price"},
+  "R04": {"sentiment": "positive", "need": "warmth", "pain_point": "unknown", "scenario": "outdoor", "purchase_barrier": "unknown"},
+  "R05": {"sentiment": "unknown", "need": "unknown", "pain_point": "unknown", "scenario": "unknown", "purchase_barrier": "unknown"},
+  "R06": {"sentiment": "positive", "need": "unknown", "pain_point": "unknown", "scenario": "unknown", "purchase_barrier": "unknown"},
+  "R07": {"sentiment": "mixed", "need": "unknown", "pain_point": "battery", "scenario": "unknown", "purchase_barrier": "unknown"},
+  "R08": {"sentiment": "unknown", "need": "unknown", "pain_point": "unknown", "scenario": "unknown", "purchase_barrier": "trust"},
+  "R09": {"sentiment": "unknown", "need": "unknown", "pain_point": "unknown", "scenario": "unknown", "purchase_barrier": "unknown"},
+  "R10": {"sentiment": "negative", "need": "unknown", "pain_point": "weight", "scenario": "travel", "purchase_barrier": "unknown"}
+}
+

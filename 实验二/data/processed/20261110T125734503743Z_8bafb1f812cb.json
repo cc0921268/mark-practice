@@ -1,0 +1,188 @@
+{
+  "version": "v0.2",
+  "records": [
+    {
+      "review_id": "R01",
+      "review": "通勤带着很方便携带，我很满意",
+      "sentiment": "positive",
+      "need": "portability",
+      "pain_point": "unknown",
+      "scenario": "commute",
+      "purchase_barrier": "unknown",
+      "evidence": {
+        "sentiment": [
+          "满意"
+        ],
+        "need": "方便携带",
+        "pain_point": null,
+        "scenario": "通勤",
+        "purchase_barrier": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R02",
+      "review": "杯盖漏水，真失望",
+      "sentiment": "negative",
+      "need": "unknown",
+      "pain_point": "leakage",
+      "scenario": "unknown",
+      "purchase_barrier": "unknown",
+      "evidence": {
+        "sentiment": [
+          "失望"
+        ],
+        "need": null,
+        "pain_point": "漏水",
+        "scenario": null,
+        "purchase_barrier": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R03",
+      "review": "价格太贵，暂时不买",
+      "sentiment": "unknown",
+      "need": "unknown",
+      "pain_point": "unknown",
+      "scenario": "unknown",
+      "purchase_barrier": "price",
+      "evidence": {
+        "sentiment": null,
+        "need": null,
+        "pain_point": null,
+        "scenario": null,
+        "purchase_barrier": "太贵"
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R04",
+      "review": "保温效果很好，露营时用",
+      "sentiment": "positive",
+      "need": "warmth",
+      "pain_point": "unknown",
+      "scenario": "outdoor",
+      "purchase_barrier": "unknown",
+      "evidence": {
+        "sentiment": [
+          "很好"
+        ],
+        "need": "保温",
+        "pain_point": null,
+        "scenario": "露营",
+        "purchase_barrier": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R05",
+      "review": "包装是蓝色的",
+      "sentiment": "unknown",
+      "need": "unknown",
+      "pain_point": "unknown",
+      "scenario": "unknown",
+      "purchase_barrier": "unknown",
+      "evidence": {
+        "sentiment": null,
+        "need": null,
+        "pain_point": null,
+        "scenario": null,
+        "purchase_barrier": null
+      },
+      "confidence": 0.0
+    },
+    {
+      "review_id": "R06",
+      "review": "不漏水，很满意",
+      "sentiment": "positive",
+      "need": "unknown",
+      "pain_point": "unknown",
+      "scenario": "unknown",
+      "purchase_barrier": "unknown",
+      "evidence": {
+        "sentiment": [
+          "满意"
+        ],
+        "need": null,
+        "pain_point": null,
+        "scenario": null,
+        "purchase_barrier": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R07",
+      "review": "喜欢外观，但续航短让我失望",
+      "sentiment": "mixed",
+      "need": "unknown",
+      "pain_point": "battery",
+      "scenario": "unknown",
+      "purchase_barrier": "unknown",
+      "evidence": {
+        "sentiment": [
+          "喜欢",
+          "失望"
+        ],
+        "need": null,
+        "pain_point": "续航短",
+        "scenario": null,
+        "purchase_barrier": null
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R08",
+      "review": "客服不可信，不敢下单",
+      "sentiment": "unknown",
+      "need": "unknown",
+      "pain_point": "unknown",
+      "scenario": "unknown",
+      "purchase_barrier": "trust",
+      "evidence": {
+        "sentiment": null,
+        "need": null,
+        "pain_point": null,
+        "scenario": null,
+        "purchase_barrier": "不可信"
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R09",
+      "review": "",
+      "sentiment": "unknown",
+      "need": "unknown",
+      "pain_point": "unknown",
+      "scenario": "unknown",
+      "purchase_barrier": "unknown",
+      "evidence": {
+        "sentiment": null,
+        "need": null,
+        "pain_point": null,
+        "scenario": null,
+        "purchase_barrier": null
+      },
+      "confidence": 0.0
+    },
+    {
+      "review_id": "R10",
+      "review": "旅行时太重，不方便携带",
+      "sentiment": "negative",
+      "need": "unknown",
+      "pain_point": "weight",
+      "scenario": "travel",
+      "purchase_barrier": "unknown",
+      "evidence": {
+        "sentiment": [
+          "不方便"
+        ],
+        "need": null,
+        "pain_point": "太重",
+        "scenario": "旅行",
+        "purchase_barrier": null
+      },
+      "confidence": 0.95
+    }
+  ]
+}
