@@ -1,0 +1,6 @@
+﻿# Local browser runtime is downloaded by Playwright and is not committed.
+skills/webapp-testing/browsers/
+**/__pycache__/
+*.pyc
+*.log
+*.zip

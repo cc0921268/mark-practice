@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "id": "20261110T123004893373Z_48283cf621be",
+    "original_filename": "normal.csv",
+    "source": "课程自建测试样例",
+    "collection_date": "2026-11-10",
+    "field_uses": {
+      "brand": "品牌分组及筛选",
+      "price": "平均价格",
+      "rating": "平均评分",
+      "product": "保留但本实验不分析",
+      "sales": "保留但本实验不分析"
+    },
+    "upload_time_utc": "2026-11-10T12:30:04.893373+00:00",
+    "raw_file": "data\\raw\\20261110T123004893373Z_48283cf621be.csv",
+    "sha256": "48283cf621be95024992c5188087be98fae16ea0f4ffc07b3e61e49b8576a3a4"
+  },
+  "analysis": {
+    "required_fields": [
+      "brand",
+      "price",
+      "rating"
+    ],
+    "total_rows": 4,
+    "valid_rows": 4,
+    "skipped_rows": 0,
+    "brands": [
+      {
+        "brand": "星河",
+        "count": 2,
+        "average_price": 150.0,
+        "average_rating": 4.5
+      },
+      {
+        "brand": "青竹",
+        "count": 2,
+        "average_price": 100.0,
+        "average_rating": 4.0
+      }
+    ],
+    "warnings": []
+  }
+}

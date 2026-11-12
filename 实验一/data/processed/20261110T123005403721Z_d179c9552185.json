@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "id": "20261110T123005403721Z_d179c9552185",
+    "original_filename": "empty_values.csv",
+    "source": "课程自建测试样例",
+    "collection_date": "2026-11-10",
+    "field_uses": {
+      "brand": "品牌分组及筛选",
+      "price": "平均价格",
+      "rating": "平均评分",
+      "product": "保留但本实验不分析",
+      "sales": "保留但本实验不分析"
+    },
+    "upload_time_utc": "2026-11-10T12:30:05.403721+00:00",
+    "raw_file": "data\\raw\\20261110T123005403721Z_d179c9552185.csv",
+    "sha256": "d179c955218583a9353e6c53c9491a2791ba865b66fd4f77ebdbf04a11c87a0d"
+  },
+  "analysis": {
+    "required_fields": [
+      "brand",
+      "price",
+      "rating"
+    ],
+    "total_rows": 5,
+    "valid_rows": 2,
+    "skipped_rows": 3,
+    "brands": [
+      {
+        "brand": "星河",
+        "count": 1,
+        "average_price": 100.0,
+        "average_rating": 4.0
+      },
+      {
+        "brand": "青竹",
+        "count": 1,
+        "average_price": 120.0,
+        "average_rating": 4.5
+      }
+    ],
+    "warnings": [
+      "第 3 行 brand、price 或 rating 为空，已跳过。",
+      "第 4 行 brand、price 或 rating 为空，已跳过。",
+      "第 5 行 brand、price 或 rating 为空，已跳过。"
+    ]
+  }
+}

@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>营销数据分析 · 实验 01</title>
+  <style>
+    :root { font-family: "Microsoft YaHei", "PingFang SC", system-ui, sans-serif; color: #152b3b; background: #f3f7f8; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    header { background: linear-gradient(110deg, #103b4c, #176477); color: white; padding: 34px max(24px, calc((100vw - 1060px)/2)); }
+    .eyebrow { text-transform: uppercase; letter-spacing: .17em; font-size: 12px; opacity: .76; font-weight: 700; }
+    h1 { margin: 10px 0 7px; font-size: clamp(26px, 4vw, 38px); }
+    header p { margin: 0; color: #d8e9eb; }
+    main { max-width: 1060px; margin: 26px auto 70px; padding: 0 20px; }
+    .card { background: white; border: 1px solid #dde8eb; border-radius: 16px; box-shadow: 0 8px 28px #153f4b0b; padding: 24px; margin-bottom: 20px; }
+    h2 { margin: 0 0 5px; font-size: 21px; }
+    .hint { color: #5b7180; font-size: 14px; margin: 0 0 20px; }
+    .grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 14px; align-items: end; }
+    label { display: block; font-size: 13px; font-weight: 700; color: #344f60; margin-bottom: 7px; }
+    input, select { display: block; width: 100%; min-height: 43px; border: 1px solid #cbdce1; border-radius: 9px; background: white; color: #203b48; padding: 9px 11px; font: inherit; }
+    input[type=file] { padding: 8px; font-size: 13px; }
+    input:focus, select:focus { outline: 3px solid #b8e3dc; border-color: #168676; }
+    button { border: 0; border-radius: 9px; min-height: 43px; padding: 0 22px; background: #087f72; color: white; font: inherit; font-weight: 700; cursor: pointer; }
+    button:hover { background: #06695f; }
+    button:disabled { opacity: .6; cursor: wait; }
+    .actions { margin-top: 18px; display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+    .note { font-size: 12px; color: #657984; }
+    .message { margin-top: 14px; padding: 11px 14px; border-radius: 9px; font-size: 14px; }
+    .message.error { color: #8f2630; background: #fff1f0; border: 1px solid #f3c8cb; }
+    .message.ok { color: #176452; background: #e9f8f2; border: 1px solid #b9e7d4; }
+    .summary { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin: 18px 0 22px; }
+    .stat { background: #f2f8f8; border-radius: 12px; padding: 15px; }
+    .stat strong { display: block; font-size: 27px; margin-top: 4px; color: #105667; }
+    .filter { max-width: 280px; margin-bottom: 20px; }
+    .charts { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; }
+    .chart { border: 1px solid #e0e9eb; border-radius: 12px; padding: 17px; }
+    .chart h3 { font-size: 16px; margin: 0 0 18px; }
+    .bar-row { display: grid; grid-template-columns: 95px 1fr 52px; gap: 9px; align-items: center; margin: 13px 0; font-size: 13px; }
+    .bar-label { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .track { background: #eef4f5; border-radius: 5px; height: 23px; overflow: hidden; }
+    .bar { height: 100%; border-radius: 5px; background: #178d7e; min-width: 2px; }
+    .rating .bar { background: #e0a537; }
+    .value { text-align: right; font-variant-numeric: tabular-nums; }
+    table { border-collapse: collapse; width: 100%; margin-top: 18px; font-size: 14px; }
+    th, td { border-bottom: 1px solid #e3ebed; padding: 11px 10px; text-align: left; }
+    th { color: #536a76; background: #f7fafb; }
+    .warnings { color: #7d5b23; background: #fff8e9; border-radius: 9px; padding: 12px 16px; margin-top: 18px; font-size: 13px; }
+    footer { max-width: 1060px; padding: 0 20px 30px; margin: auto; color: #738591; font-size: 12px; }
+    [hidden] { display: none !important; }
+    @media (max-width: 720px) { .grid, .charts, .summary { grid-template-columns: 1fr; } .bar-row { grid-template-columns: 75px 1fr 48px; } }
+  </style>
+</head>
+<body>
+  <header><div class="eyebrow">Marketing OS / Experiment 01</div><h1>营销数据分析</h1><p>上传 CSV，按品牌查看平均价格与平均评分。</p></header>
+  <main>
+    <section class="card" aria-labelledby="upload-title">
+      <h2 id="upload-title">上传数据</h2>
+      <p class="hint">必需字段：brand、price、rating。支持含 product、sales 的教师数据；CSV 请使用 UTF-8 编码。</p>
+      <form id="upload-form">
+        <div class="grid">
+          <div><label for="csv-file">CSV 文件</label><input id="csv-file" type="file" accept=".csv,text/csv" required></div>
+          <div><label for="data-source">数据来源</label><input id="data-source" type="text" placeholder="如：教师提供 / 公开样例" required></div>
+          <div><label for="collection-date">采集日期</label><input id="collection-date" type="date" required></div>
+        </div>
+        <div class="actions"><button id="submit-button" type="submit">上传并分析</button><span class="note">原始文件另存，分析与筛选不会覆盖原文件。</span></div>
+      </form>
+      <div id="message" class="message" role="alert" hidden></div>
+    </section>
+    <section id="results" class="card" aria-labelledby="results-title" hidden>
+      <h2 id="results-title">分析结果</h2>
+      <p id="result-source" class="hint"></p>
+      <div class="summary"><div class="stat">有效记录<strong id="valid-count">0</strong></div><div class="stat">跳过记录<strong id="skipped-count">0</strong></div><div class="stat">品牌数<strong id="brand-count">0</strong></div></div>
+      <div class="filter"><label for="brand-filter">按品牌筛选</label><select id="brand-filter"><option value="">全部品牌</option></select></div>
+      <div class="charts"><div class="chart"><h3>平均价格 · 元</h3><div id="price-chart"></div></div><div class="chart rating"><h3>平均评分</h3><div id="rating-chart"></div></div></div>
+      <table><thead><tr><th>品牌</th><th>有效记录</th><th>平均价格</th><th>平均评分</th></tr></thead><tbody id="result-table"></tbody></table>
+      <div id="warnings" class="warnings" hidden></div>
+    </section>
+  </main>
+  <footer>v0.1 · 本地运行 · 不调用大模型 API · 仅使用自有或允许访问的数据</footer>
+  <script>
+    const $ = id => document.getElementById(id);
+    let analysis = null;
+    const today = new Date();
+    $('collection-date').value = `${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,'0')}-${String(today.getDate()).padStart(2,'0')}`;
+    function message(text, kind) { const el = $('message'); el.textContent = text; el.className = 'message ' + kind; el.hidden = false; }
+    function makeBar(container, item, key, max) {
+      const row = document.createElement('div'); row.className = 'bar-row';
+      const label = document.createElement('span'); label.className = 'bar-label'; label.textContent = item.brand; label.title = item.brand;
+      const track = document.createElement('div'); track.className = 'track';
+      const bar = document.createElement('div'); bar.className = 'bar'; bar.style.width = `${max > 0 ? item[key] / max * 100 : 0}%`; track.appendChild(bar);
+      const value = document.createElement('span'); value.className = 'value'; value.textContent = item[key].toFixed(2);
+      row.append(label, track, value); container.appendChild(row);
+    }
+    function render() {
+      if (!analysis) return;
+      const selected = $('brand-filter').value;
+      const rows = analysis.brands.filter(item => !selected || item.brand === selected);
+      const price = $('price-chart'), rating = $('rating-chart'), table = $('result-table');
+      price.replaceChildren(); rating.replaceChildren(); table.replaceChildren();
+      const priceMax = Math.max(0, ...analysis.brands.map(item => item.average_price));
+      const ratingMax = Math.max(0, ...analysis.brands.map(item => item.average_rating));
+      rows.forEach(item => {
+        makeBar(price, item, 'average_price', priceMax);
+        makeBar(rating, item, 'average_rating', ratingMax);
+        const tr = document.createElement('tr');
+        [item.brand, item.count, item.average_price.toFixed(2), item.average_rating.toFixed(2)].forEach(value => { const td = document.createElement('td'); td.textContent = value; tr.appendChild(td); });
+        table.appendChild(tr);
+      });
+    }
+    $('brand-filter').addEventListener('change', render);
+    $('upload-form').addEventListener('submit', async event => {
+      event.preventDefault();
+      const file = $('csv-file').files[0];
+      if (!file) return message('请选择 CSV 文件。', 'error');
+      if (file.size > 5 * 1024 * 1024) return message('CSV 文件不能超过 5 MB。', 'error');
+      const button = $('submit-button'); button.disabled = true; button.textContent = '分析中…';
+      $('message').hidden = true;
+      try {
+        const response = await fetch('/api/analyse', { method: 'POST', headers: {
+          'Content-Type': 'text/csv', 'X-Data-Source': encodeURIComponent($('data-source').value),
+          'X-Collection-Date': $('collection-date').value, 'X-File-Name': encodeURIComponent(file.name)
+        }, body: file });
+        const payload = await response.json();
+        if (!response.ok) { $('results').hidden = true; message(payload.error || '分析失败。', 'error'); return; }
+        analysis = payload.analysis;
+        $('results').hidden = false;
+        $('result-source').textContent = `来源：${payload.metadata.source} · 采集日期：${payload.metadata.collection_date} · 原始文件编号：${payload.metadata.id}`;
+        $('valid-count').textContent = analysis.valid_rows;
+        $('skipped-count').textContent = analysis.skipped_rows;
+        $('brand-count').textContent = analysis.brands.length;
+        const filter = $('brand-filter'); filter.replaceChildren(new Option('全部品牌', ''));
+        analysis.brands.forEach(item => filter.add(new Option(item.brand, item.brand)));
+        const warnings = $('warnings'); warnings.hidden = !analysis.warnings.length;
+        warnings.textContent = analysis.warnings.length ? `数据质量提示：${analysis.warnings.join(' ')}` : '';
+        render(); message('上传成功，分析结果已生成。', 'ok');
+      } catch (error) { $('results').hidden = true; message('连接失败：请确认程序仍在运行。', 'error'); }
+      finally { button.disabled = false; button.textContent = '上传并分析'; }
+    });
+  </script>
+</body>
+</html>
