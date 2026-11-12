@@ -1,0 +1,35 @@
+﻿<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>实验三 · 营销数据管线</title>
+<style>
+  :root { font-family: "Microsoft YaHei", "PingFang SC", system-ui, sans-serif; color:#183444; background:#f3f7f8; }
+  * { box-sizing:border-box; } body { margin:0; } header { background:linear-gradient(110deg,#123d50,#206373); color:white; padding:32px max(24px,calc((100vw - 1050px)/2)); }
+  header small { letter-spacing:.17em; color:#aad4d6; font-weight:bold; } h1 { margin:9px 0; font-size:34px; } header p { margin:0; color:#d3e5e8; }
+  main { max-width:1050px; margin:25px auto 60px; padding:0 20px; } section { background:white; border:1px solid #dce8ea; border-radius:14px; padding:24px; margin-bottom:18px; box-shadow:0 8px 24px #143d4a0c; }
+  h2 { margin:0 0 7px; font-size:21px; } .hint { color:#607683; font-size:14px; margin:0 0 18px; } .grid { display:grid; grid-template-columns:1.5fr 1fr 1fr; gap:14px; }
+  label { display:block; font-size:13px; font-weight:bold; margin-bottom:7px; } input { display:block; width:100%; min-height:42px; border:1px solid #ccdadf; border-radius:8px; padding:8px 10px; font:inherit; }
+  input[type=file] { font-size:13px; } button { margin-top:16px; background:#087f73; color:white; border:0; border-radius:8px; padding:11px 20px; font:inherit; font-weight:bold; cursor:pointer; }
+  button:disabled { opacity:.6; } .message { padding:12px; border-radius:8px; margin-top:15px; } .error { background:#fff0f0; color:#8d2631; } .ok { background:#e7f6ef; color:#17634d; }
+  .stats { display:grid; grid-template-columns:repeat(4,1fr); gap:13px; margin:18px 0; } .stat { background:#f0f7f8; border-radius:10px; padding:15px; font-size:13px; } .stat strong { display:block; margin-top:6px; font-size:25px; color:#0d5b68; }
+  a { color:#087676; font-weight:bold; } .scroll { overflow:auto; } table { width:100%; min-width:850px; border-collapse:collapse; font-size:13px; } th,td { padding:10px; border-bottom:1px solid #e3eaed; text-align:left; } th { background:#f6f9fa; }
+  .note { color:#647985; font-size:13px; } [hidden] { display:none!important; } @media(max-width:700px){.grid,.stats{grid-template-columns:1fr;}}
+</style></head><body>
+<header><small>MARKETING DATA PIPELINE / V0.3</small><h1>蓝牙耳机数据清洗</h1><p>来源可追溯，原始数据单独留存，结果可重复生成。</p></header>
+<main>
+<section><h2>已处理的数据集</h2><p class="hint">公开商品列表的 480 条原始记录；没有评论原文，互动数据为评论数与关注数。</p>
+<div class="stats"><div class="stat">原始记录<strong id="raw">—</strong></div><div class="stat">清洗后<strong id="clean">—</strong></div><div class="stat">字段完整率<strong id="complete">—</strong></div><div class="stat">品牌数<strong id="brands">—</strong></div></div>
+<a href="/api/download-clean" download="clean_data.csv">下载 clean_data.csv</a><p class="note">“无线标记代理”记录不能证明具体蓝牙协议；查看数据字典了解口径。</p></section>
+<section><h2>上传同结构 CSV 验证清洗</h2><p class="hint">沿用本地上传流程。建议先上传 data/sample/first_50.csv；原始上传另存，不覆盖主数据集。</p>
+<form id="form"><div class="grid"><div><label for="file">CSV 文件</label><input id="file" type="file" accept=".csv,text/csv" required></div><div><label for="source">数据来源</label><input id="source" placeholder="如：课程公开数据样本" required></div><div><label for="date">采集日期</label><input id="date" type="date" required></div></div><button id="submit" type="submit">上传并清洗</button></form><div id="message" class="message" role="alert" hidden></div></section>
+<section id="upload-result" hidden><h2>上传清洗结果</h2><p id="upload-meta" class="note"></p><div class="stats"><div class="stat">原始记录<strong id="upload-raw">—</strong></div><div class="stat">清洗后<strong id="upload-clean">—</strong></div><div class="stat">字段完整率<strong id="upload-complete">—</strong></div><div class="stat">重复删除<strong id="upload-dupes">—</strong></div></div><div class="scroll"><table><thead><tr><th>编号</th><th>产品名称</th><th>品牌</th><th>价格 USD</th><th>评分</th><th>评论数</th><th>日期</th></tr></thead><tbody id="preview"></tbody></table></div></section>
+</main><script>
+const $=id=>document.getElementById(id); const today=new Date(); $('date').value=`${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,'0')}-${String(today.getDate()).padStart(2,'0')}`;
+fetch('/api/quality').then(r=>r.json()).then(q=>{$('raw').textContent=q.raw_rows;$('clean').textContent=q.clean_rows;$('complete').textContent=(q.analytic_field_completeness*100).toFixed(2)+'%';$('brands').textContent=q.unique_brands;});
+function notice(text,kind){const el=$('message');el.textContent=text;el.className='message '+kind;el.hidden=false;}
+$('form').addEventListener('submit',async event=>{event.preventDefault();const file=$('file').files[0];if(!file)return notice('请选择 CSV 文件。','error');if(file.size>5*1024*1024)return notice('CSV 文件不能超过 5 MB。','error');const button=$('submit');button.disabled=true;button.textContent='清洗中…';$('message').hidden=true;
+try{const response=await fetch('/api/clean-upload',{method:'POST',headers:{'Content-Type':'text/csv','X-Data-Source':encodeURIComponent($('source').value),'X-Collection-Date':$('date').value,'X-File-Name':encodeURIComponent(file.name)},body:file});const result=await response.json();if(!response.ok){$('upload-result').hidden=true;return notice(result.error||'清洗失败。','error');}
+$('upload-result').hidden=false;$('upload-meta').textContent=`来源：${result.metadata.source} · 采集日期：${result.metadata.collection_date} · 原始文件编号：${result.metadata.id}`;$('upload-raw').textContent=result.quality.raw_rows;$('upload-clean').textContent=result.quality.clean_rows;$('upload-complete').textContent=(result.quality.analytic_field_completeness*100).toFixed(2)+'%';$('upload-dupes').textContent=result.changes.rules.duplicate_removed;
+const body=$('preview');body.replaceChildren();result.preview.forEach(row=>{const tr=document.createElement('tr');[row.listing_id,row.title,row.brand,row.price_usd,row.rating,row.reviews_count,row.scrape_date].forEach(value=>{const td=document.createElement('td');td.textContent=value;tr.appendChild(td)});body.appendChild(tr)});notice('清洗完成，原始上传已独立保存。','ok');}
+catch(error){$('upload-result').hidden=true;notice('连接失败：请确认程序正在运行。','error')}finally{button.disabled=false;button.textContent='上传并清洗';}});
+</script></body></html>
+

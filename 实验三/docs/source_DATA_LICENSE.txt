@@ -1,0 +1,9 @@
+﻿Dataset: ebay_headphones_listings.csv
+
+License: Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+
+This dataset was collected from publicly available eBay listings for educational
+and research purposes only. It may not be used for commercial resale.
+
+This project is not affiliated with or endorsed by eBay Inc.
+

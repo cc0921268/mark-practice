@@ -1,0 +1,14 @@
+{
+  "event": "import",
+  "timestamp_utc": "2026-11-10T13:41:23.186392+00:00",
+  "repository": "Haseeb-U/ebay-headphones-market-dataset",
+  "commit": "18fb2f845f9d0ff7a6659884c6d9b6fae2c7111c",
+  "blob_sha": "a652532a226278f4cba856efdcd97b2cf62cf2d7",
+  "source_sha256": "a94195f6ec773c6f460c66507ea8612a8b1e50e8ad6620d38dd6a1663717f4e7",
+  "raw_sha256": "8af91daae70e2314d7c7074e608edaa382cdcdb7a2b3d196ffb1684bbbc69281",
+  "raw_rows": 480,
+  "sample_rows": 50,
+  "explicit_title_rows": 197,
+  "proxy_rows": 283
+}
+

@@ -1,0 +1,24 @@
+{
+  "rules": {
+    "duplicate_removed": 69,
+    "invalid_price_removed": 0,
+    "invalid_rating_removed": 0,
+    "invalid_core_removed": 0,
+    "invalid_date_removed": 0,
+    "non_usd_removed": 0,
+    "brand_alias_modified": 52,
+    "watchers_invalid_to_blank": 0,
+    "wireless_inferred_from_title": 0,
+    "price_outlier_flagged": 5
+  },
+  "raw_rows": 480,
+  "clean_rows": 411,
+  "dedup_rule": "listing_id; latest scrape_timestamp, then nonblank watchers_count, then first row",
+  "outlier_rule": "price > Q3 + 3*IQR; flag and retain",
+  "version": "v0.3",
+  "run_time_utc": "2026-11-10T13:49:34.094918+00:00",
+  "raw_sha256": "2e9aae5c8f46645dc60ff302be9e628381224e72cab06c6b7c1de7a4076c586e",
+  "clean_sha256": "0c4b8a908618cb0a6ae65bb93e5a5355a37eb1e0f1f04f356e9b72b5b986fe55",
+  "raw_file": "data\\raw\\raw_data.csv",
+  "clean_file": "data\\processed\\clean_data.csv"
+}

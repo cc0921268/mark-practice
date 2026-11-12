@@ -1,0 +1,3 @@
+﻿# Python 3.10+ 标准库即可运行采集、清洗、页面和测试。
+# GitHub Skill 校验脚本依赖的 PyYAML 已单独放在 skills/github-skill-creator/vendor/。
+

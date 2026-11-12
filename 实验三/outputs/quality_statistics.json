@@ -1,0 +1,23 @@
+{
+  "version": "v0.3",
+  "raw_rows": 480,
+  "clean_rows": 411,
+  "unique_brands": 74,
+  "analytic_field_completeness": 0.9547,
+  "field_completeness": {
+    "listing_id": 1.0,
+    "title": 1.0,
+    "brand": 1.0,
+    "price_usd": 1.0,
+    "rating": 1.0,
+    "reviews_count": 1.0,
+    "watchers_count": 0.6375,
+    "scrape_date": 1.0
+  },
+  "price_usd_min": "4.00",
+  "price_usd_max": "526.99",
+  "price_outlier_upper_usd": "384.08",
+  "explicit_title_rows": 164,
+  "wireless_proxy_rows": 247,
+  "review_text_available": false
+}
