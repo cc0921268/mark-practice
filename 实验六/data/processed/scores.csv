@@ -1,0 +1,7 @@
+﻿focal_brand,competitor,consumer_overlap,product_overlap,price_overlap,brand_heat,threat_index,rank_status,review_sample_size,product_listing_count,focal_review_sample_size,focal_product_listing_count,product_sample_warning,shared_pain_tags,rank
+Skullcandy,Sennheiser,23.5294,79.3269,71.1538,83.3333,61.9547,ranked,7,13,7,16,False,battery|connectivity|device_failure|fit,1
+Skullcandy,Jabra,54.6763,18.75,0.0,16.6667,25.257,ranked,12,1,7,16,True,battery|connectivity|device_failure|fit|noise_cancellation|sound,2
+Skullcandy,Apple,0.0,31.25,35.0,100.0,,insufficient_review_sample,1,10,7,16,False,,
+Skullcandy,JBL,0.0,56.25,39.2857,66.6667,,insufficient_review_sample,2,28,7,16,False,,
+Skullcandy,Sony,16.0,48.8971,75.0,41.6667,,insufficient_review_sample,1,68,7,16,False,battery|noise_cancellation,
+

@@ -1,0 +1,22 @@
+{
+  "version": "v0.6",
+  "focal_brand": "Skullcandy",
+  "competitors": [
+    "Sennheiser",
+    "Jabra"
+  ],
+  "review_sample_size": 30,
+  "competitor_title_sample_size": 13,
+  "excluded_accessory_count": 1,
+  "opportunity_count": 6,
+  "brief_count": 6,
+  "coverage_scope": "competitor listing titles only",
+  "selling_points_anc_count_verified": 2,
+  "pseudo_gap_example": "taste",
+  "source_sha256": {
+    "encoded_reviews.json": "70f7137cabf414d48a19f4fdb1b005062b3595bdf593f87fbfddbb6ee84206bb",
+    "clean_data.csv": "0c4b8a908618cb0a6ae65bb93e5a5355a37eb1e0f1f04f356e9b72b5b986fe55",
+    "selling_points.csv": "3fafc51596f5c2dcc5052f81acafa374ed4d52ab1e5379d644aa714245328ac9",
+    "scores.csv": "c5352b867d32a73a2875b95733ed9eedd2cbd0cf199be67bb3665b86126703ce"
+  }
+}

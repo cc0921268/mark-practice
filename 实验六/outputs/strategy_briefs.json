@@ -1,0 +1,219 @@
+[
+  {
+    "theme": "device_failure",
+    "need_theme": "设备可靠性",
+    "target_audience": "反馈单耳停用的耳机使用者",
+    "content_direction": "用实测条件说明单耳寿命检查与保修边界。",
+    "user_evidence_ids": [
+      "RZ80S0WTLE5XV",
+      "R14S44XNYWAJ6S",
+      "R3I5STGPGGKF8T",
+      "R16Y3N21ZBO7M9",
+      "R3GHP7Y6NQQLW"
+    ],
+    "competitor_checked_listing_ids": [
+      "147081484523",
+      "156108842069",
+      "157389264418",
+      "167843614480",
+      "167996758261",
+      "196467111805",
+      "197878372320",
+      "227054925629",
+      "267507619558",
+      "277649628008",
+      "306714691223",
+      "317354049620",
+      "406366195395"
+    ],
+    "competitor_matched_listing_ids": [],
+    "user_mentions": 9,
+    "user_denominator": 30,
+    "competitor_titles_covered": 0,
+    "competitor_title_denominator": 13,
+    "opportunity_score": 30.0,
+    "expected_metric": "保修说明点击率=点击人数/内容曝光人数；基线待收集",
+    "claim_boundary": "仅作为内容试验方向；产品性能与用户需求仍需实测和更广样本验证。"
+  },
+  {
+    "theme": "battery",
+    "need_theme": "续航与充电",
+    "target_audience": "反馈充电或续航问题的耳机使用者",
+    "content_direction": "在统一音量与模式条件下实测续航，并说明充电排查步骤。",
+    "user_evidence_ids": [
+      "R3LE7R8KC2FNBN",
+      "R2ZIFDC71LMZTC",
+      "R291XLOCLTAGYX",
+      "R3KWX129FATHZ5",
+      "R1NZFMP5E3V7DO"
+    ],
+    "competitor_checked_listing_ids": [
+      "147081484523",
+      "156108842069",
+      "157389264418",
+      "167843614480",
+      "167996758261",
+      "196467111805",
+      "197878372320",
+      "227054925629",
+      "267507619558",
+      "277649628008",
+      "306714691223",
+      "317354049620",
+      "406366195395"
+    ],
+    "competitor_matched_listing_ids": [
+      "156108842069"
+    ],
+    "user_mentions": 8,
+    "user_denominator": 30,
+    "competitor_titles_covered": 1,
+    "competitor_title_denominator": 13,
+    "opportunity_score": 24.62,
+    "expected_metric": "充电排查页点击率=点击人数/内容曝光人数；基线待收集",
+    "claim_boundary": "仅作为内容试验方向；产品性能与用户需求仍需实测和更广样本验证。"
+  },
+  {
+    "theme": "fit",
+    "need_theme": "佩戴适配",
+    "target_audience": "反馈耳塞尺寸不合适的耳机使用者",
+    "content_direction": "展示耳塞尺寸对照与试戴步骤，说明适配差异。",
+    "user_evidence_ids": [
+      "R235GNB2VHHLYC",
+      "RHM04YLY2VYYR",
+      "RPNH0JRGVT2TA",
+      "R2789X65707AWW"
+    ],
+    "competitor_checked_listing_ids": [
+      "147081484523",
+      "156108842069",
+      "157389264418",
+      "167843614480",
+      "167996758261",
+      "196467111805",
+      "197878372320",
+      "227054925629",
+      "267507619558",
+      "277649628008",
+      "306714691223",
+      "317354049620",
+      "406366195395"
+    ],
+    "competitor_matched_listing_ids": [],
+    "user_mentions": 4,
+    "user_denominator": 30,
+    "competitor_titles_covered": 0,
+    "competitor_title_denominator": 13,
+    "opportunity_score": 13.33,
+    "expected_metric": "尺寸指南使用率=指南访问人数/内容曝光人数；基线待收集",
+    "claim_boundary": "仅作为内容试验方向；产品性能与用户需求仍需实测和更广样本验证。"
+  },
+  {
+    "theme": "price",
+    "need_theme": "价格与价值",
+    "target_audience": "反馈价格与价值不符的耳机使用者",
+    "content_direction": "用条件化对照解释价格、功能与保修范围。",
+    "user_evidence_ids": [
+      "R291XLOCLTAGYX",
+      "RPNH0JRGVT2TA",
+      "R3KWX129FATHZ5",
+      "R16JMJTVP2HUHC"
+    ],
+    "competitor_checked_listing_ids": [
+      "147081484523",
+      "156108842069",
+      "157389264418",
+      "167843614480",
+      "167996758261",
+      "196467111805",
+      "197878372320",
+      "227054925629",
+      "267507619558",
+      "277649628008",
+      "306714691223",
+      "317354049620",
+      "406366195395"
+    ],
+    "competitor_matched_listing_ids": [],
+    "user_mentions": 4,
+    "user_denominator": 30,
+    "competitor_titles_covered": 0,
+    "competitor_title_denominator": 13,
+    "opportunity_score": 13.33,
+    "expected_metric": "价格说明页点击率=点击人数/内容曝光人数；基线待收集",
+    "claim_boundary": "仅作为内容试验方向；产品性能与用户需求仍需实测和更广样本验证。"
+  },
+  {
+    "theme": "sound",
+    "need_theme": "声音表现",
+    "target_audience": "反馈声音表现问题的耳机使用者",
+    "content_direction": "用可复核条件展示声音对照与设置步骤。",
+    "user_evidence_ids": [
+      "R1ATK4EOO6JDDH",
+      "R15KN6XHFIEM00",
+      "R2WOI29CCIOVO0"
+    ],
+    "competitor_checked_listing_ids": [
+      "147081484523",
+      "156108842069",
+      "157389264418",
+      "167843614480",
+      "167996758261",
+      "196467111805",
+      "197878372320",
+      "227054925629",
+      "267507619558",
+      "277649628008",
+      "306714691223",
+      "317354049620",
+      "406366195395"
+    ],
+    "competitor_matched_listing_ids": [
+      "147081484523"
+    ],
+    "user_mentions": 3,
+    "user_denominator": 30,
+    "competitor_titles_covered": 1,
+    "competitor_title_denominator": 13,
+    "opportunity_score": 9.23,
+    "expected_metric": "声音设置指南完成率=完整阅读人数/访问人数；基线待收集",
+    "claim_boundary": "仅作为内容试验方向；产品性能与用户需求仍需实测和更广样本验证。"
+  },
+  {
+    "theme": "noise_cancellation",
+    "need_theme": "降噪体验",
+    "target_audience": "反馈降噪不足的耳机使用者",
+    "content_direction": "用实测条件说明降噪表现与适用场景。",
+    "user_evidence_ids": [
+      "R291XLOCLTAGYX",
+      "R16JMJTVP2HUHC",
+      "R2WOI29CCIOVO0"
+    ],
+    "competitor_checked_listing_ids": [
+      "147081484523",
+      "156108842069",
+      "157389264418",
+      "167843614480",
+      "167996758261",
+      "196467111805",
+      "197878372320",
+      "227054925629",
+      "267507619558",
+      "277649628008",
+      "306714691223",
+      "317354049620",
+      "406366195395"
+    ],
+    "competitor_matched_listing_ids": [
+      "277649628008",
+      "317354049620"
+    ],
+    "user_mentions": 3,
+    "user_denominator": 30,
+    "competitor_titles_covered": 2,
+    "competitor_title_denominator": 13,
+    "opportunity_score": 8.46,
+    "expected_metric": "降噪说明页完成率=完整阅读人数/访问人数；基线待收集",
+    "claim_boundary": "仅作为内容试验方向；产品性能与用户需求仍需实测和更广样本验证。"
+  }
+]

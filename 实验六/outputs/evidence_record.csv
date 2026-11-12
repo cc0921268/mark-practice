@@ -1,0 +1,78 @@
+﻿theme,evidence_type,source_id,brand,exact_quote_or_title,checked_title_count
+device_failure,user_review,RZ80S0WTLE5XV,Jabra,stopped working,13
+device_failure,user_review,R14S44XNYWAJ6S,Jabra,stopped working quickly,13
+device_failure,user_review,R3I5STGPGGKF8T,Jabra,Broke within two weeks,13
+device_failure,user_review,R16Y3N21ZBO7M9,Sennheiser,DEAD/BRICKED after 7 months,13
+device_failure,user_review,R3GHP7Y6NQQLW,Sennheiser,right bud died,13
+device_failure,user_review,R3KSIVBNARMAB,Sennheiser,left ear dead in 3 months,13
+device_failure,user_review,R2DG530TEWR0LU,Sennheiser,stopped playing audio,13
+device_failure,user_review,R1KOT9VQZRR9DP,Sennheiser,left ear bud no longer works,13
+device_failure,user_review,R33SEAQBU28DVP,Skullcandy,no sound comes out of it,13
+device_failure,competitor_title_audit,147081484523|156108842069|157389264418|167843614480|167996758261|196467111805|197878372320|227054925629|267507619558|277649628008|306714691223|317354049620|406366195395,Sennheiser|Jabra,pattern=durab|reliab|warrant|long.last; matched=0,13
+battery,user_review,R3LE7R8KC2FNBN,Jabra,THEY WILL NOT CHARGE,13
+battery,user_review,R2ZIFDC71LMZTC,Jabra,wouldn't hold a charge,13
+battery,user_review,R291XLOCLTAGYX,Jabra,Battery lasts maybe 5 hours,13
+battery,user_review,R3KWX129FATHZ5,Sennheiser,2 days to charge fully,13
+battery,user_review,R1NZFMP5E3V7DO,Skullcandy,battery low with in thirty minutes,13
+battery,user_review,R3IJ6RANP5Z9KV,Skullcandy,will not charge,13
+battery,user_review,R3I10YETW6G46D,Skullcandy,connection in the case is bad to charge them,13
+battery,user_review,R16JMJTVP2HUHC,Sony,charge in the case does not last very long at all,13
+battery,competitor_title_match,156108842069,Sennheiser,Hour,13
+battery,competitor_title_audit,147081484523|156108842069|157389264418|167843614480|167996758261|196467111805|197878372320|227054925629|267507619558|277649628008|306714691223|317354049620|406366195395,Sennheiser|Jabra,pattern=battery|playtime|runtime|charg|\bhours?\b; matched=1,13
+connectivity,user_review,R15KN6XHFIEM00,Jabra,disonnect bluetooth and connect again,13
+connectivity,user_review,R26HEHTAA675XL,Jabra,not an immediate connectivity,13
+connectivity,user_review,R3KWX129FATHZ5,Sennheiser,fail to connect,13
+connectivity,user_review,R3GHP7Y6NQQLW,Sennheiser,can't even pair the buds,13
+connectivity,user_review,R1KOT9VQZRR9DP,Sennheiser,constantly disconnect,13
+connectivity,user_review,R33SEAQBU28DVP,Skullcandy,stopped connecting,13
+connectivity,competitor_title_match,147081484523,Sennheiser,Wireless,13
+connectivity,competitor_title_match,156108842069,Sennheiser,Wireless,13
+connectivity,competitor_title_match,157389264418,Sennheiser,Wireless,13
+connectivity,competitor_title_match,167843614480,Sennheiser,Wireless,13
+connectivity,competitor_title_match,167996758261,Jabra,Wireless,13
+connectivity,competitor_title_match,196467111805,Sennheiser,Wireless,13
+connectivity,competitor_title_match,197878372320,Sennheiser,wireless,13
+connectivity,competitor_title_match,227054925629,Sennheiser,Wireless,13
+connectivity,competitor_title_match,267507619558,Sennheiser,Wireless,13
+connectivity,competitor_title_match,277649628008,Sennheiser,Wireless,13
+connectivity,competitor_title_match,306714691223,Sennheiser,Wireless,13
+connectivity,competitor_title_match,317354049620,Sennheiser,Wireless,13
+connectivity,competitor_title_match,406366195395,Sennheiser,Wireless,13
+connectivity,competitor_title_audit,147081484523|156108842069|157389264418|167843614480|167996758261|196467111805|197878372320|227054925629|267507619558|277649628008|306714691223|317354049620|406366195395,Sennheiser|Jabra,pattern=bluetooth|wireless|pairing|connection; matched=13,13
+fit,user_review,R235GNB2VHHLYC,Jabra,too large for my ears,13
+fit,user_review,RHM04YLY2VYYR,Jabra,slide out of the ear,13
+fit,user_review,RPNH0JRGVT2TA,Sennheiser,fall put just from bending down,13
+fit,user_review,R2789X65707AWW,Skullcandy,Fall out easily,13
+fit,competitor_title_audit,147081484523|156108842069|157389264418|167843614480|167996758261|196467111805|197878372320|227054925629|267507619558|277649628008|306714691223|317354049620|406366195395,Sennheiser|Jabra,pattern=\bfit\b|comfort|ergonomic|secure|ear tips; matched=0,13
+price,user_review,R291XLOCLTAGYX,Jabra,over $100…nope,13
+price,user_review,RPNH0JRGVT2TA,Sennheiser,Wouldnt buy again for that price,13
+price,user_review,R3KWX129FATHZ5,Sennheiser,For the price that I paid I would expect these guys to last much longer,13
+price,user_review,R16JMJTVP2HUHC,Sony,severely overpriced,13
+price,competitor_title_audit,147081484523|156108842069|157389264418|167843614480|167996758261|196467111805|197878372320|227054925629|267507619558|277649628008|306714691223|317354049620|406366195395,Sennheiser|Jabra,pattern=value|afford|budget|sale|deal|discount; matched=0,13
+sound,user_review,R1ATK4EOO6JDDH,Jabra,better sound quality than this,13
+sound,user_review,R15KN6XHFIEM00,Jabra,sound is breaking up,13
+sound,user_review,R2WOI29CCIOVO0,Skullcandy,Hardly any bass,13
+sound,competitor_title_match,147081484523,Sennheiser,Audio,13
+sound,competitor_title_audit,147081484523|156108842069|157389264418|167843614480|167996758261|196467111805|197878372320|227054925629|267507619558|277649628008|306714691223|317354049620|406366195395,Sennheiser|Jabra,pattern=sound|audio|bass|hi.fi; matched=1,13
+noise_cancellation,user_review,R291XLOCLTAGYX,Jabra,don’t feel like the ANC works,13
+noise_cancellation,user_review,R16JMJTVP2HUHC,Sony,the ANC is mid,13
+noise_cancellation,user_review,R2WOI29CCIOVO0,Skullcandy,doesn’t cancel out noise,13
+noise_cancellation,competitor_title_match,277649628008,Sennheiser,Noise-Cancel,13
+noise_cancellation,competitor_title_match,317354049620,Sennheiser,Noise Cancel,13
+noise_cancellation,competitor_title_audit,147081484523|156108842069|157389264418|167843614480|167996758261|196467111805|197878372320|227054925629|267507619558|277649628008|306714691223|317354049620|406366195395,Sennheiser|Jabra,pattern=noise.cancel|\banc\b; matched=2,13
+packaging,user_review,R2XHEXEGVII1Y7,Jabra,The box came open with a used product inside,13
+packaging,competitor_title_match,167996758261,Jabra,BOX,13
+packaging,competitor_title_audit,147081484523|156108842069|157389264418|167843614480|167996758261|196467111805|197878372320|227054925629|267507619558|277649628008|306714691223|317354049620|406366195395,Sennheiser|Jabra,pattern=packag|\bbox\b|unboxing; matched=1,13
+product_condition,user_review,R2XHEXEGVII1Y7,Jabra,used product inside,13
+product_condition,user_review,R2ZIFDC71LMZTC,Jabra,covered in someone else's ear wax,13
+product_condition,competitor_title_match,157389264418,Sennheiser,New,13
+product_condition,competitor_title_match,167996758261,Jabra,New,13
+product_condition,competitor_title_match,267507619558,Sennheiser,NEW,13
+product_condition,competitor_title_match,317354049620,Sennheiser,New,13
+product_condition,competitor_title_match,406366195395,Sennheiser,New,13
+product_condition,competitor_title_audit,147081484523|156108842069|157389264418|167843614480|167996758261|196467111805|197878372320|227054925629|267507619558|277649628008|306714691223|317354049620|406366195395,Sennheiser|Jabra,pattern=\bnew\b|refurb|condition; matched=5,13
+support,user_review,R3KSIVBNARMAB,Sennheiser,Can't get any support,13
+support,competitor_title_audit,147081484523|156108842069|157389264418|167843614480|167996758261|196467111805|197878372320|227054925629|267507619558|277649628008|306714691223|317354049620|406366195395,Sennheiser|Jabra,pattern=support|warranty; matched=0,13
+delivery,competitor_title_audit,147081484523|156108842069|157389264418|167843614480|167996758261|196467111805|197878372320|227054925629|267507619558|277649628008|306714691223|317354049620|406366195395,Sennheiser|Jabra,pattern=shipping|delivery; matched=0,13
+taste,competitor_title_audit,147081484523|156108842069|157389264418|167843614480|167996758261|196467111805|197878372320|227054925629|267507619558|277649628008|306714691223|317354049620|406366195395,Sennheiser|Jabra,pattern=taste|flavor; matched=0,13
+

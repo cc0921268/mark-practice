@@ -1,0 +1,3 @@
+﻿pandas>=2.0,<4.0
+# GitHub Skill 校验所需 PyYAML 在 skills/github-skill-creator/vendor/。
+

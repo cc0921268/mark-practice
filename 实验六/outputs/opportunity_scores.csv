@@ -1,0 +1,8 @@
+﻿theme,need_theme,user_mentions,user_denominator,user_sample_size,user_importance_percent,competitor_titles_covered,competitor_title_denominator,competitor_title_sample_size,competitor_coverage_percent,opportunity_score,status
+device_failure,设备可靠性,9,30,30,30.0,0,13,13,0.0,30.0,opportunity
+battery,续航与充电,8,30,30,26.67,1,13,13,7.69,24.62,opportunity
+fit,佩戴适配,4,30,30,13.33,0,13,13,0.0,13.33,opportunity
+price,价格与价值,4,30,30,13.33,0,13,13,0.0,13.33,opportunity
+sound,声音表现,3,30,30,10.0,1,13,13,7.69,9.23,opportunity
+noise_cancellation,降噪体验,3,30,30,10.0,2,13,13,15.38,8.46,opportunity
+
