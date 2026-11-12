@@ -1,0 +1,4 @@
+﻿pandas>=2.0,<4.0
+# 工作流和本地模拟 API 使用 Python 标准库。
+# GitHub Skill 校验脚本使用的 PyYAML 位于 skills/github-skill-creator/vendor/。
+

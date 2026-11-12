@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Marketing Workflow v0.7 run state",
+  "type": "object",
+  "required": ["version", "run_id", "request", "status", "steps", "human_review"],
+  "properties": {
+    "version": {"const": "v0.7"},
+    "run_id": {"type": "string", "minLength": 1},
+    "request": {"type": "string", "minLength": 1},
+    "status": {"enum": ["running", "failed", "draft_pending_human_review"]},
+    "human_review": {"enum": ["pending"]},
+    "steps": {"type": "object", "additionalProperties": {"$ref": "#/$defs/step_ref"}},
+    "error": {"type": "string"}
+  },
+  "$defs": {
+    "step_ref": {
+      "type": "object", "required": ["status", "file"],
+      "properties": {"status": {"enum": ["completed", "failed"]}, "file": {"type": "string"},
+                     "evidence_sources": {"type": "array", "items": {"type": "string"}}, "error": {"type": "string"}}
+    },
+    "step_detail": {
+      "type": "object", "required": ["name", "input", "output", "status", "evidence_sources", "started_at_utc", "finished_at_utc"],
+      "properties": {"name": {"type": "string"}, "input": {"type": "object"},
+                     "output": {"type": ["object", "null"]},
+                     "status": {"enum": ["running", "completed", "failed"]},
+                     "evidence_sources": {"type": "array", "items": {"type": "string"}},
+                     "started_at_utc": {"type": "string"}, "finished_at_utc": {"type": "string"}, "error": {"type": "string"}}
+    },
+    "api_envelope": {
+      "type": "object", "required": ["result"],
+      "properties": {"result": {"type": "object"}}
+    },
+    "campaign": {
+      "type": "object", "required": ["name", "objective", "audience", "theme", "channels", "evidence_ids", "competitor_listing_ids", "metric", "claim_boundary", "approval_status"],
+      "properties": {"name": {"type": "string"}, "objective": {"type": "string"},
+                     "audience": {"type": "string"}, "theme": {"type": "string"},
+                     "channels": {"type": "array", "items": {"type": "object"}},
+                     "evidence_ids": {"type": "array", "minItems": 3, "items": {"type": "string"}},
+                     "competitor_listing_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+                     "metric": {"type": "string"}, "claim_boundary": {"type": "string"},
+                     "approval_status": {"const": "pending_human_review"}}
+    }
+  }
+}
+

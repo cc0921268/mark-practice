@@ -1,0 +1,17 @@
+﻿flowchart LR
+    A[用户输入与来源日期] --> B[品牌资料]
+    B --> C[实验四 消费者洞察]
+    C --> D[实验五 竞争分析]
+    D --> E[实验六 Content Gap]
+    E --> F[实验六 Brand Voice]
+    F --> G[HTTP JSON 目标消费者]
+    G --> H[HTTP JSON 传播主题]
+    H --> I[HTTP JSON 渠道计划]
+    I --> J{人工审核点}
+    J --> K[HTTP JSON Campaign 草案]
+    K --> L[待人工审核 不自动发布]
+    G -.超时/服务故障.-> M[确定性本地兜底]
+    H -.超时/服务故障.-> M
+    I -.超时/服务故障.-> M
+    K -.超时/服务故障.-> M
+

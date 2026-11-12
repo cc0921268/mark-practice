@@ -1,0 +1,899 @@
+{
+  "version": "v0.4",
+  "records": [
+    {
+      "review_id": "RZ80S0WTLE5XV",
+      "review_text": "Everything was ok until all of a sudden one of the earbuds stopped working. Commands are working fine (I can control volume and tracks but sound is not working). Bad experience with only few months of use.",
+      "brand": "Jabra",
+      "product_name": "Jabra Elite 4",
+      "review_date": null,
+      "rating": 1.0,
+      "sentiment": "negative",
+      "need": "unknown",
+      "pain_point": "device_failure",
+      "scenario": "unknown",
+      "purchase_barrier": "unknown",
+      "pain_tags": [
+        "device_failure"
+      ],
+      "evidence": {
+        "sentiment": [
+          "Bad experience"
+        ],
+        "need": null,
+        "pain_point": "stopped working",
+        "scenario": null,
+        "purchase_barrier": null,
+        "pain_tags": {
+          "device_failure": "stopped working"
+        }
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R235GNB2VHHLYC",
+      "review_text": "The product works very well, but unfortunately they are too large for my ears and keep popping out. If they come in a smaller size, I wasn't given that option.",
+      "brand": "Jabra",
+      "product_name": "Jabra Elite 4",
+      "review_date": null,
+      "rating": 3.0,
+      "sentiment": "mixed",
+      "need": "unknown",
+      "pain_point": "fit",
+      "scenario": "unknown",
+      "purchase_barrier": "unknown",
+      "pain_tags": [
+        "fit"
+      ],
+      "evidence": {
+        "sentiment": [
+          "works very well",
+          "too large for my ears"
+        ],
+        "need": null,
+        "pain_point": "too large for my ears",
+        "scenario": null,
+        "purchase_barrier": null,
+        "pain_tags": {
+          "fit": "too large for my ears"
+        }
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "RHM04YLY2VYYR",
+      "review_text": "During work outs, sweat causes the bud to slide out of the ear. Spending some time looking for a bud under the equipment",
+      "brand": "Jabra",
+      "product_name": "Jabra Elite 4",
+      "review_date": null,
+      "rating": 3.0,
+      "sentiment": "negative",
+      "need": "unknown",
+      "pain_point": "fit",
+      "scenario": "workout",
+      "purchase_barrier": "unknown",
+      "pain_tags": [
+        "fit"
+      ],
+      "evidence": {
+        "sentiment": [
+          "slide out of the ear"
+        ],
+        "need": null,
+        "pain_point": "slide out of the ear",
+        "scenario": "During work outs",
+        "purchase_barrier": null,
+        "pain_tags": {
+          "fit": "slide out of the ear"
+        }
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R1ATK4EOO6JDDH",
+      "review_text": "I thought it would have better sound quality than this.. Very disappointed.. Like the old saying goes you get what you pay for",
+      "brand": "Jabra",
+      "product_name": "Jabra Elite 4",
+      "review_date": null,
+      "rating": 2.0,
+      "sentiment": "negative",
+      "need": "unknown",
+      "pain_point": "sound",
+      "scenario": "unknown",
+      "purchase_barrier": "unknown",
+      "pain_tags": [
+        "sound"
+      ],
+      "evidence": {
+        "sentiment": [
+          "Very disappointed"
+        ],
+        "need": null,
+        "pain_point": "better sound quality than this",
+        "scenario": null,
+        "purchase_barrier": null,
+        "pain_tags": {
+          "sound": "better sound quality than this"
+        }
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R15KN6XHFIEM00",
+      "review_text": "When you resume listening of music after call ended sound is breaking up and you need either power off the buds and then turn it on or disonnect bluetooth and connect again to restore the sound.",
+      "brand": "Jabra",
+      "product_name": "Jabra Elite 4",
+      "review_date": null,
+      "rating": 2.0,
+      "sentiment": "negative",
+      "need": "unknown",
+      "pain_point": "connectivity",
+      "scenario": "unknown",
+      "purchase_barrier": "unknown",
+      "pain_tags": [
+        "connectivity",
+        "sound"
+      ],
+      "evidence": {
+        "sentiment": [
+          "sound is breaking up"
+        ],
+        "need": null,
+        "pain_point": "disonnect bluetooth and connect again",
+        "scenario": null,
+        "purchase_barrier": null,
+        "pain_tags": {
+          "connectivity": "disonnect bluetooth and connect again",
+          "sound": "sound is breaking up"
+        }
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R26HEHTAA675XL",
+      "review_text": "When You Put the Pods to your ears, it is not an immediate connectivity. There Is a delay",
+      "brand": "Jabra",
+      "product_name": "Jabra Elite 4",
+      "review_date": null,
+      "rating": 3.0,
+      "sentiment": "negative",
+      "need": "unknown",
+      "pain_point": "connectivity",
+      "scenario": "unknown",
+      "purchase_barrier": "unknown",
+      "pain_tags": [
+        "connectivity"
+      ],
+      "evidence": {
+        "sentiment": [
+          "There Is a delay"
+        ],
+        "need": null,
+        "pain_point": "not an immediate connectivity",
+        "scenario": null,
+        "purchase_barrier": null,
+        "pain_tags": {
+          "connectivity": "not an immediate connectivity"
+        }
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R3LE7R8KC2FNBN",
+      "review_text": "Second pair of Jabra Elite 4 earbuds I have received. Both had the same problem - THEY WILL NOT CHARGE. The packaging looked legit, but I suspect these are bogus. Anyway, not gonna try a third pair. Gonna switch to Earfun.",
+      "brand": "Jabra",
+      "product_name": "Jabra Elite 4",
+      "review_date": null,
+      "rating": 1.0,
+      "sentiment": "negative",
+      "need": "unknown",
+      "pain_point": "battery",
+      "scenario": "unknown",
+      "purchase_barrier": "unknown",
+      "pain_tags": [
+        "battery"
+      ],
+      "evidence": {
+        "sentiment": [
+          "THEY WILL NOT CHARGE"
+        ],
+        "need": null,
+        "pain_point": "THEY WILL NOT CHARGE",
+        "scenario": null,
+        "purchase_barrier": null,
+        "pain_tags": {
+          "battery": "THEY WILL NOT CHARGE"
+        }
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R2XHEXEGVII1Y7",
+      "review_text": "Amazon wouldn't let me post my first review. The box came open with a used product inside. I thought I was purchasing something new that was on sale no other description was available. I have sent used them so far they seem to work as advertised",
+      "brand": "Jabra",
+      "product_name": "Jabra Elite 4",
+      "review_date": null,
+      "rating": 2.0,
+      "sentiment": "negative",
+      "need": "unknown",
+      "pain_point": "packaging",
+      "scenario": "unknown",
+      "purchase_barrier": "unknown",
+      "pain_tags": [
+        "packaging",
+        "product_condition"
+      ],
+      "evidence": {
+        "sentiment": [
+          "The box came open with a used product inside"
+        ],
+        "need": null,
+        "pain_point": "The box came open with a used product inside",
+        "scenario": null,
+        "purchase_barrier": null,
+        "pain_tags": {
+          "packaging": "The box came open with a used product inside",
+          "product_condition": "used product inside"
+        }
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R2ZIFDC71LMZTC",
+      "review_text": "I bought these refurbished 'like new' from Amazon. They arrived apparently straight out of the returns bin, covered in someone else's ear wax and with a dead battery. Even after leaving them plugged in for an hour, the earbuds wouldn't hold a charge and turned off immediately.",
+      "brand": "Jabra",
+      "product_name": "Jabra Elite 4",
+      "review_date": null,
+      "rating": 1.0,
+      "sentiment": "negative",
+      "need": "unknown",
+      "pain_point": "battery",
+      "scenario": "unknown",
+      "purchase_barrier": "unknown",
+      "pain_tags": [
+        "battery",
+        "product_condition"
+      ],
+      "evidence": {
+        "sentiment": [
+          "dead battery"
+        ],
+        "need": null,
+        "pain_point": "wouldn't hold a charge",
+        "scenario": null,
+        "purchase_barrier": null,
+        "pain_tags": {
+          "battery": "wouldn't hold a charge",
+          "product_condition": "covered in someone else's ear wax"
+        }
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R14S44XNYWAJ6S",
+      "review_text": "Left ear stopped working quickly after first few weeks from normal daily use. I keep my buds clean and I also didn't find meaningful change in the eq for this app. It's okay for the price if you get them and they continue to work ig",
+      "brand": "Jabra",
+      "product_name": "Jabra Elite 4",
+      "review_date": null,
+      "rating": 1.0,
+      "sentiment": "negative",
+      "need": "unknown",
+      "pain_point": "device_failure",
+      "scenario": "unknown",
+      "purchase_barrier": "unknown",
+      "pain_tags": [
+        "device_failure"
+      ],
+      "evidence": {
+        "sentiment": [
+          "stopped working quickly"
+        ],
+        "need": null,
+        "pain_point": "stopped working quickly",
+        "scenario": null,
+        "purchase_barrier": null,
+        "pain_tags": {
+          "device_failure": "stopped working quickly"
+        }
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R291XLOCLTAGYX",
+      "review_text": "I really don’t feel like the ANC works on these. They’re just ok. Maybe $50 value would be more appropriate but over $100…nope. Battery lasts maybe 5 hours.",
+      "brand": "Jabra",
+      "product_name": "Jabra Elite 4",
+      "review_date": null,
+      "rating": 1.0,
+      "sentiment": "negative",
+      "need": "unknown",
+      "pain_point": "price",
+      "scenario": "unknown",
+      "purchase_barrier": "price",
+      "pain_tags": [
+        "price",
+        "battery",
+        "noise_cancellation"
+      ],
+      "evidence": {
+        "sentiment": [
+          "over $100…nope"
+        ],
+        "need": null,
+        "pain_point": "over $100…nope",
+        "scenario": null,
+        "purchase_barrier": "over $100…nope",
+        "pain_tags": {
+          "price": "over $100…nope",
+          "battery": "Battery lasts maybe 5 hours",
+          "noise_cancellation": "don’t feel like the ANC works"
+        }
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R3I5STGPGGKF8T",
+      "review_text": "Broke within two weeks one earbud doesn’t work",
+      "brand": "Jabra",
+      "product_name": "Jabra Elite 4",
+      "review_date": null,
+      "rating": 1.0,
+      "sentiment": "negative",
+      "need": "unknown",
+      "pain_point": "device_failure",
+      "scenario": "unknown",
+      "purchase_barrier": "unknown",
+      "pain_tags": [
+        "device_failure"
+      ],
+      "evidence": {
+        "sentiment": [
+          "Broke within two weeks"
+        ],
+        "need": null,
+        "pain_point": "Broke within two weeks",
+        "scenario": null,
+        "purchase_barrier": null,
+        "pain_tags": {
+          "device_failure": "Broke within two weeks"
+        }
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "RPNH0JRGVT2TA",
+      "review_text": "These are way to big and heavy. They fall put just from bending down to pick sometging and they are heavy so the fall is pretty hard. Imagine working put with these. Wouldnt buy again for that price. My cheap $40 are way better in these departments.",
+      "brand": "Sennheiser",
+      "product_name": "Sennheiser Consumer Audio CS",
+      "review_date": null,
+      "rating": 2.0,
+      "sentiment": "negative",
+      "need": "unknown",
+      "pain_point": "fit",
+      "scenario": "unknown",
+      "purchase_barrier": "price",
+      "pain_tags": [
+        "fit",
+        "price"
+      ],
+      "evidence": {
+        "sentiment": [
+          "Wouldnt buy again for that price"
+        ],
+        "need": null,
+        "pain_point": "fall put just from bending down",
+        "scenario": null,
+        "purchase_barrier": "Wouldnt buy again for that price",
+        "pain_tags": {
+          "fit": "fall put just from bending down",
+          "price": "Wouldnt buy again for that price"
+        }
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R3KWX129FATHZ5",
+      "review_text": "For the price that I paid I would expect these guys to last much longer but now I frequently have one fail to connect to my pc or even both. This also happens on my phone. Even worse they take upwards to 2 days to charge fully even with my fast charge cables so I don't recommend this product or expect it to last long. Sound is great though...",
+      "brand": "Sennheiser",
+      "product_name": "Sennheiser Consumer Audio CS",
+      "review_date": null,
+      "rating": 2.0,
+      "sentiment": "mixed",
+      "need": "unknown",
+      "pain_point": "price",
+      "scenario": "unknown",
+      "purchase_barrier": "price",
+      "pain_tags": [
+        "price",
+        "connectivity",
+        "battery"
+      ],
+      "evidence": {
+        "sentiment": [
+          "don't recommend this product",
+          "Sound is great though"
+        ],
+        "need": null,
+        "pain_point": "For the price that I paid I would expect these guys to last much longer",
+        "scenario": null,
+        "purchase_barrier": "For the price that I paid I would expect these guys to last much longer",
+        "pain_tags": {
+          "price": "For the price that I paid I would expect these guys to last much longer",
+          "connectivity": "fail to connect",
+          "battery": "2 days to charge fully"
+        }
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R16Y3N21ZBO7M9",
+      "review_text": "These earbuds are DEAD/BRICKED after 7 months of use due to a known hardware issue involving a loss connection inside the earbud. The sound quality was great but i expected longevity out of a Sennheiser product. I would not recommend buying them, as in a few months it will be in a landfill.",
+      "brand": "Sennheiser",
+      "product_name": "Sennheiser Consumer Audio CS",
+      "review_date": null,
+      "rating": 2.0,
+      "sentiment": "mixed",
+      "need": "unknown",
+      "pain_point": "device_failure",
+      "scenario": "unknown",
+      "purchase_barrier": "unknown",
+      "pain_tags": [
+        "device_failure"
+      ],
+      "evidence": {
+        "sentiment": [
+          "DEAD/BRICKED",
+          "sound quality was great"
+        ],
+        "need": null,
+        "pain_point": "DEAD/BRICKED after 7 months",
+        "scenario": null,
+        "purchase_barrier": null,
+        "pain_tags": {
+          "device_failure": "DEAD/BRICKED after 7 months"
+        }
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R3GHP7Y6NQQLW",
+      "review_text": "I liked them until the right bud died, and now I can't even pair the buds with my new phone. So I can't even listen in mono.",
+      "brand": "Sennheiser",
+      "product_name": "Sennheiser Consumer Audio CS",
+      "review_date": null,
+      "rating": 3.0,
+      "sentiment": "mixed",
+      "need": "unknown",
+      "pain_point": "device_failure",
+      "scenario": "unknown",
+      "purchase_barrier": "unknown",
+      "pain_tags": [
+        "device_failure",
+        "connectivity"
+      ],
+      "evidence": {
+        "sentiment": [
+          "I liked them",
+          "right bud died"
+        ],
+        "need": null,
+        "pain_point": "right bud died",
+        "scenario": null,
+        "purchase_barrier": null,
+        "pain_tags": {
+          "device_failure": "right bud died",
+          "connectivity": "can't even pair the buds"
+        }
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R3KSIVBNARMAB",
+      "review_text": "Can't get any support, left ear dead in 3 months. Can't return it.",
+      "brand": "Sennheiser",
+      "product_name": "Sennheiser Consumer Audio CS",
+      "review_date": null,
+      "rating": 3.0,
+      "sentiment": "negative",
+      "need": "unknown",
+      "pain_point": "device_failure",
+      "scenario": "unknown",
+      "purchase_barrier": "unknown",
+      "pain_tags": [
+        "device_failure",
+        "support"
+      ],
+      "evidence": {
+        "sentiment": [
+          "left ear dead in 3 months"
+        ],
+        "need": null,
+        "pain_point": "left ear dead in 3 months",
+        "scenario": null,
+        "purchase_barrier": null,
+        "pain_tags": {
+          "device_failure": "left ear dead in 3 months",
+          "support": "Can't get any support"
+        }
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R2DG530TEWR0LU",
+      "review_text": "I’ve owned two pairs of these. The sound quality is superb, but after less than a year, one of the earbuds stopped playing audio and would only make a weird clicking noise. Do not buy this product.",
+      "brand": "Sennheiser",
+      "product_name": "Sennheiser Consumer Audio CS",
+      "review_date": null,
+      "rating": 2.0,
+      "sentiment": "mixed",
+      "need": "unknown",
+      "pain_point": "device_failure",
+      "scenario": "unknown",
+      "purchase_barrier": "unknown",
+      "pain_tags": [
+        "device_failure"
+      ],
+      "evidence": {
+        "sentiment": [
+          "sound quality is superb",
+          "stopped playing audio"
+        ],
+        "need": null,
+        "pain_point": "stopped playing audio",
+        "scenario": null,
+        "purchase_barrier": null,
+        "pain_tags": {
+          "device_failure": "stopped playing audio"
+        }
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R1KOT9VQZRR9DP",
+      "review_text": "Sound great, well mixed, but constantly disconnect for no reason if you pause or buffer for more than 3 seconds and my left ear bud no longer works and doesn't produce sound after only 6 months",
+      "brand": "Sennheiser",
+      "product_name": "Sennheiser Consumer Audio CS",
+      "review_date": null,
+      "rating": 2.0,
+      "sentiment": "mixed",
+      "need": "unknown",
+      "pain_point": "connectivity",
+      "scenario": "unknown",
+      "purchase_barrier": "unknown",
+      "pain_tags": [
+        "connectivity",
+        "device_failure"
+      ],
+      "evidence": {
+        "sentiment": [
+          "Sound great",
+          "constantly disconnect"
+        ],
+        "need": null,
+        "pain_point": "constantly disconnect",
+        "scenario": null,
+        "purchase_barrier": null,
+        "pain_tags": {
+          "connectivity": "constantly disconnect",
+          "device_failure": "left ear bud no longer works"
+        }
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R1NZFMP5E3V7DO",
+      "review_text": "I bought these in January of 2024. At first I loved them. However, now no matter how long I leave them to change the right earbud screams battery low with in thirty minutes. It’s very annoying. The left one will last about 8 hours. It doesn’t make sense. 🤷🏼‍♀️",
+      "brand": "Skullcandy",
+      "product_name": "Skullcandy Smokin Buds",
+      "review_date": null,
+      "rating": 3.0,
+      "sentiment": "mixed",
+      "need": "unknown",
+      "pain_point": "battery",
+      "scenario": "unknown",
+      "purchase_barrier": "unknown",
+      "pain_tags": [
+        "battery"
+      ],
+      "evidence": {
+        "sentiment": [
+          "At first I loved them",
+          "battery low with in thirty minutes"
+        ],
+        "need": null,
+        "pain_point": "battery low with in thirty minutes",
+        "scenario": null,
+        "purchase_barrier": null,
+        "pain_tags": {
+          "battery": "battery low with in thirty minutes"
+        }
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R33SEAQBU28DVP",
+      "review_text": "5 months in and the left ear bud has stopped connecting. The touch control still works, but no sound comes out of it. A cursory internet search shows that this is not an isolated occurrence.",
+      "brand": "Skullcandy",
+      "product_name": "Skullcandy Smokin Buds",
+      "review_date": null,
+      "rating": 3.0,
+      "sentiment": "negative",
+      "need": "unknown",
+      "pain_point": "connectivity",
+      "scenario": "unknown",
+      "purchase_barrier": "unknown",
+      "pain_tags": [
+        "connectivity",
+        "device_failure"
+      ],
+      "evidence": {
+        "sentiment": [
+          "stopped connecting"
+        ],
+        "need": null,
+        "pain_point": "stopped connecting",
+        "scenario": null,
+        "purchase_barrier": null,
+        "pain_tags": {
+          "connectivity": "stopped connecting",
+          "device_failure": "no sound comes out of it"
+        }
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R3IJ6RANP5Z9KV",
+      "review_text": "Bought this product trusting SkullCandy reliability, 5 months in to only using to listen to Podcasts (not while exercising), 1 earbud will not charge.",
+      "brand": "Skullcandy",
+      "product_name": "Skullcandy Smokin Buds",
+      "review_date": null,
+      "rating": 3.0,
+      "sentiment": "negative",
+      "need": "unknown",
+      "pain_point": "battery",
+      "scenario": "unknown",
+      "purchase_barrier": "unknown",
+      "pain_tags": [
+        "battery"
+      ],
+      "evidence": {
+        "sentiment": [
+          "will not charge"
+        ],
+        "need": null,
+        "pain_point": "will not charge",
+        "scenario": null,
+        "purchase_barrier": null,
+        "pain_tags": {
+          "battery": "will not charge"
+        }
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R2789X65707AWW",
+      "review_text": "Fall out easily. Lost a pair this way. Easy to use. Easy to charge. Holds a charge for a long time. Sound is excellent.",
+      "brand": "Skullcandy",
+      "product_name": "Skullcandy Smokin Buds",
+      "review_date": null,
+      "rating": 3.0,
+      "sentiment": "mixed",
+      "need": "unknown",
+      "pain_point": "fit",
+      "scenario": "unknown",
+      "purchase_barrier": "unknown",
+      "pain_tags": [
+        "fit"
+      ],
+      "evidence": {
+        "sentiment": [
+          "Fall out easily",
+          "Sound is excellent"
+        ],
+        "need": null,
+        "pain_point": "Fall out easily",
+        "scenario": null,
+        "purchase_barrier": null,
+        "pain_tags": {
+          "fit": "Fall out easily"
+        }
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R3I10YETW6G46D",
+      "review_text": "The sound quality is really good but the connection in the case is bad to charge them. Disapointed in this purchase.",
+      "brand": "Skullcandy",
+      "product_name": "Skullcandy Smokin Buds",
+      "review_date": null,
+      "rating": 3.0,
+      "sentiment": "mixed",
+      "need": "unknown",
+      "pain_point": "battery",
+      "scenario": "unknown",
+      "purchase_barrier": "unknown",
+      "pain_tags": [
+        "battery"
+      ],
+      "evidence": {
+        "sentiment": [
+          "sound quality is really good",
+          "Disapointed in this purchase"
+        ],
+        "need": null,
+        "pain_point": "connection in the case is bad to charge them",
+        "scenario": null,
+        "purchase_barrier": null,
+        "pain_tags": {
+          "battery": "connection in the case is bad to charge them"
+        }
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R16JMJTVP2HUHC",
+      "review_text": "honestly can't believe these are over $100 regular price. i did not pay that much and they are most definitely not worth that much. the case is cheap looking and feeling plastic that cant even charge wirelessly. the earbuds are also cheap looking and feeling plastic. the sound is the only reason i bought these since all the headphones i use for watching TV are Sony. the ANC is mid. charging is also mid as it takes so long compared to other buds i have and the charge in the case does not last very long at all. if you use these for buds even for just a few hours, not even with ANC on, you will be charging the case every couple of days. other brand buds i use can do wireless charging and keep a charge in the case for a week. overall, while the sound is quality as expected from sony, they are severely overpriced. absolutely do not buy these at regular price.",
+      "brand": "Sony",
+      "product_name": "Sony WF-C700N",
+      "review_date": null,
+      "rating": 3.0,
+      "sentiment": "mixed",
+      "need": "unknown",
+      "pain_point": "price",
+      "scenario": "unknown",
+      "purchase_barrier": "price",
+      "pain_tags": [
+        "price",
+        "battery",
+        "noise_cancellation"
+      ],
+      "evidence": {
+        "sentiment": [
+          "severely overpriced",
+          "sound is quality as expected"
+        ],
+        "need": null,
+        "pain_point": "severely overpriced",
+        "scenario": null,
+        "purchase_barrier": "severely overpriced",
+        "pain_tags": {
+          "price": "severely overpriced",
+          "battery": "charge in the case does not last very long at all",
+          "noise_cancellation": "the ANC is mid"
+        }
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R3URZ9ZP4QCFJG",
+      "review_text": "Fast shipment. Seems sturdy.",
+      "brand": "JBL",
+      "product_name": "JBL Tune 230NC",
+      "review_date": null,
+      "rating": 5.0,
+      "sentiment": "positive",
+      "need": "unknown",
+      "pain_point": "unknown",
+      "scenario": "unknown",
+      "purchase_barrier": "unknown",
+      "pain_tags": [],
+      "evidence": {
+        "sentiment": [
+          "Fast shipment"
+        ],
+        "need": null,
+        "pain_point": null,
+        "scenario": null,
+        "purchase_barrier": null,
+        "pain_tags": {}
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R2PX0Z7BTN5ZLC",
+      "review_text": "Sound is very clear and they are comfortable. Fast shipping, great price, description is accurate.",
+      "brand": "Skullcandy",
+      "product_name": "Skullcandy Smokin Buds",
+      "review_date": null,
+      "rating": 5.0,
+      "sentiment": "positive",
+      "need": "unknown",
+      "pain_point": "unknown",
+      "scenario": "unknown",
+      "purchase_barrier": "unknown",
+      "pain_tags": [],
+      "evidence": {
+        "sentiment": [
+          "Sound is very clear"
+        ],
+        "need": null,
+        "pain_point": null,
+        "scenario": null,
+        "purchase_barrier": null,
+        "pain_tags": {}
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R1WZ8PIXJM9AKI",
+      "review_text": "Good sound good price",
+      "brand": "JBL",
+      "product_name": "JBL Tune 230NC",
+      "review_date": null,
+      "rating": 5.0,
+      "sentiment": "positive",
+      "need": "unknown",
+      "pain_point": "unknown",
+      "scenario": "unknown",
+      "purchase_barrier": "unknown",
+      "pain_tags": [],
+      "evidence": {
+        "sentiment": [
+          "Good sound"
+        ],
+        "need": null,
+        "pain_point": null,
+        "scenario": null,
+        "purchase_barrier": null,
+        "pain_tags": {}
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R2WOI29CCIOVO0",
+      "review_text": "Hardly any bass and doesn’t cancel out noise",
+      "brand": "Skullcandy",
+      "product_name": "Skullcandy Smokin Buds",
+      "review_date": null,
+      "rating": 3.0,
+      "sentiment": "negative",
+      "need": "unknown",
+      "pain_point": "sound",
+      "scenario": "unknown",
+      "purchase_barrier": "unknown",
+      "pain_tags": [
+        "sound",
+        "noise_cancellation"
+      ],
+      "evidence": {
+        "sentiment": [
+          "Hardly any bass"
+        ],
+        "need": null,
+        "pain_point": "Hardly any bass",
+        "scenario": null,
+        "purchase_barrier": null,
+        "pain_tags": {
+          "sound": "Hardly any bass",
+          "noise_cancellation": "doesn’t cancel out noise"
+        }
+      },
+      "confidence": 0.95
+    },
+    {
+      "review_id": "R2TFU4XZKPCZWB",
+      "review_text": "My daughter loved these they have really good sound and good noise cancelling. She had a prior pair of airpods that were so old and worn out. She didn't realize how bad the sound was on her old ones until she put the new ones on. Wow, sound isn't even turned up so high and it's great. Great deal and fast delivery. Happy!!!! 😃 😊",
+      "brand": "Apple",
+      "product_name": "Apple AirPods",
+      "review_date": null,
+      "rating": 5.0,
+      "sentiment": "positive",
+      "need": "unknown",
+      "pain_point": "unknown",
+      "scenario": "unknown",
+      "purchase_barrier": "unknown",
+      "pain_tags": [],
+      "evidence": {
+        "sentiment": [
+          "Happy!!!!"
+        ],
+        "need": null,
+        "pain_point": null,
+        "scenario": null,
+        "purchase_barrier": null,
+        "pain_tags": {}
+      },
+      "confidence": 0.95
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "case": "api_503_once",
+    "expected": "completed_after_retry",
+    "actual": "completed_after_retry",
+    "run_dir": "outputs\\debug_runs\\20261112T074821895578Z_c9136fc3",
+    "message": "local_http_mock"
+  },
+  {
+    "case": "api_unavailable",
+    "expected": "completed_with_fallback",
+    "actual": "completed_with_fallback",
+    "run_dir": "outputs\\debug_runs\\20261112T074823216261Z_31a132b9",
+    "message": "deterministic_local_fallback"
+  },
+  {
+    "case": "invalid_json",
+    "expected": "failed_readably",
+    "actual": "failed_readably",
+    "run_dir": "outputs\\debug_runs\\20261112T074824347847Z_2d9c5ca3",
+    "message": "运行 20261112T074824347847Z_2d9c5ca3 失败：API 返回的 JSON 无法解析。"
+  },
+  {
+    "case": "missing_field",
+    "expected": "failed_readably",
+    "actual": "failed_readably",
+    "run_dir": "outputs\\debug_runs\\20261112T074825391793Z_681d3db3",
+    "message": "运行 20261112T074825391793Z_681d3db3 失败：target_consumer 的 JSON 缺少必需字段：segment, why, evidence_ids"
+  },
+  {
+    "case": "timeout",
+    "expected": "completed_with_fallback",
+    "actual": "completed_with_fallback",
+    "run_dir": "outputs\\debug_runs\\20261112T074826441057Z_a56a3ae9",
+    "message": "deterministic_local_fallback"
+  }
+]
