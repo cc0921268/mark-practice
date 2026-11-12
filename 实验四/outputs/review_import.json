@@ -1,0 +1,12 @@
+{
+  "source_blob_sha": "691f1f4651237049622435cdafd0f6de659dfab6",
+  "source_sha256": "40c1c3885bb4e8f979e9ea1971f216a0ab6255c825cd95141ec81324ccedd3c7",
+  "selected_rows": 30,
+  "review_date_nonempty": 0,
+  "personal_columns_excluded": [
+    "author",
+    "profile_id"
+  ],
+  "selection": "fixed review IDs; intentionally includes complaints and controls",
+  "sanitized_sha256": "cc718b222c66ca7477c12890d41db5257a8b6ff656366d0383f8bcbb72278796"
+}

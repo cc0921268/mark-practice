@@ -1,0 +1,14 @@
+{
+  "version": "v0.4",
+  "review_sample_size": 30,
+  "pain_denominator": 30,
+  "sentiment_denominator": 30,
+  "product_listing_count": 411,
+  "review_dates_available": 0,
+  "review_time_comparison": "unavailable",
+  "pain_is_multi_label": true,
+  "sample_is_targeted": true,
+  "product_join_level": "brand_only_no_product_match",
+  "product_clean_sha256": "0c4b8a908618cb0a6ae65bb93e5a5355a37eb1e0f1f04f356e9b72b5b986fe55",
+  "review_raw_sha256": "cc718b222c66ca7477c12890d41db5257a8b6ff656366d0383f8bcbb72278796"
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "review_id": "S01",
+    "sentiment": "negative",
+    "sentiment_evidence": [
+      "Too expensive"
+    ],
+    "pain_tags": {
+      "price": "Not in original review"
+    }
+  },
+  {
+    "review_id": "S02",
+    "sentiment": "positive",
+    "sentiment_evidence": [
+      "good sound"
+    ],
+    "pain_tags": {}
+  },
+  {
+    "review_id": "S03",
+    "sentiment": "negative",
+    "sentiment_evidence": [
+      "box arrived open"
+    ],
+    "pain_tags": {
+      "packaging": "box arrived open"
+    }
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "source_blob_sha": "a652532a226278f4cba856efdcd97b2cf62cf2d7",
+  "source_sha256": "a94195f6ec773c6f460c66507ea8612a8b1e50e8ad6620d38dd6a1663717f4e7",
+  "raw_rows": 480,
+  "clean_rows": 411,
+  "clean_sha256": "0c4b8a908618cb0a6ae65bb93e5a5355a37eb1e0f1f04f356e9b72b5b986fe55",
+  "expected_experiment3_sha256": "0c4b8a908618cb0a6ae65bb93e5a5355a37eb1e0f1f04f356e9b72b5b986fe55",
+  "exact_match": true
+}

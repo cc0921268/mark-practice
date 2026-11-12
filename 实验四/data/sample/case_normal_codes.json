@@ -1,0 +1,6 @@
+[
+  {"review_id":"S01","sentiment":"negative","sentiment_evidence":["Too expensive"],"pain_tags":{"price":"Too expensive","battery":"battery dies quickly"},"purchase_barrier":"price","purchase_barrier_evidence":"Too expensive"},
+  {"review_id":"S02","sentiment":"positive","sentiment_evidence":["good sound"],"pain_tags":{}},
+  {"review_id":"S03","sentiment":"negative","sentiment_evidence":["box arrived open"],"pain_tags":{"packaging":"box arrived open"}}
+]
+

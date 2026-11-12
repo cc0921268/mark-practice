@@ -1,0 +1,8 @@
+﻿brand,review_count,denominator,sample_size,negative_count,negative_percent,listing_count,average_list_price_usd,average_listing_rating
+Apple,1,1,1,0,0.0,10,183.06,4.58
+JBL,2,2,2,0,0.0,28,56.12,4.63
+Jabra,12,12,12,11,91.67,1,271.0,4.5
+Sennheiser,7,7,7,2,28.57,13,145.06,4.92
+Skullcandy,7,7,7,3,42.86,16,70.99,4.72
+Sony,1,1,1,0,0.0,68,137.13,4.59
+
