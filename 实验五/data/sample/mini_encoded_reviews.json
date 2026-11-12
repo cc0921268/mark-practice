@@ -1,0 +1,15 @@
+{
+  "version": "v0.4",
+  "records": [
+    {"review_id":"F01","review_text":"battery weak","brand":"Focus","pain_tags":["battery"],"evidence":{"pain_tags":{"battery":"battery weak"}},"sentiment":"negative"},
+    {"review_id":"F02","review_text":"battery weak","brand":"Focus","pain_tags":["battery"],"evidence":{"pain_tags":{"battery":"battery weak"}},"sentiment":"negative"},
+    {"review_id":"F03","review_text":"battery weak","brand":"Focus","pain_tags":["battery"],"evidence":{"pain_tags":{"battery":"battery weak"}},"sentiment":"negative"},
+    {"review_id":"A01","review_text":"battery weak","brand":"Alpha","pain_tags":["battery"],"evidence":{"pain_tags":{"battery":"battery weak"}},"sentiment":"negative"},
+    {"review_id":"A02","review_text":"battery weak","brand":"Alpha","pain_tags":["battery"],"evidence":{"pain_tags":{"battery":"battery weak"}},"sentiment":"negative"},
+    {"review_id":"A03","review_text":"battery weak","brand":"Alpha","pain_tags":["battery"],"evidence":{"pain_tags":{"battery":"battery weak"}},"sentiment":"negative"},
+    {"review_id":"B01","review_text":"fit poor","brand":"Beta","pain_tags":["fit"],"evidence":{"pain_tags":{"fit":"fit poor"}},"sentiment":"negative"},
+    {"review_id":"B02","review_text":"fit poor","brand":"Beta","pain_tags":["fit"],"evidence":{"pain_tags":{"fit":"fit poor"}},"sentiment":"negative"},
+    {"review_id":"B03","review_text":"fit poor","brand":"Beta","pain_tags":["fit"],"evidence":{"pain_tags":{"fit":"fit poor"}},"sentiment":"negative"}
+  ]
+}
+

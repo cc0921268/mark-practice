@@ -1,0 +1,29 @@
+{
+  "version": "v0.5",
+  "focal_brand": "Skullcandy",
+  "weights": {
+    "consumer_overlap": 0.3,
+    "product_overlap": 0.25,
+    "price_overlap": 0.2,
+    "brand_heat": 0.25
+  },
+  "weights_sum": 1.0,
+  "product_rows": 411,
+  "review_rows": 30,
+  "focal_review_sample_size": 7,
+  "candidate_brands": [
+    "Apple",
+    "JBL",
+    "Jabra",
+    "Sennheiser",
+    "Skullcandy",
+    "Sony"
+  ],
+  "ranked_competitors": 2,
+  "consumer_overlap_is_pain_profile_proxy": true,
+  "no_shared_product_or_consumer_identifier": true,
+  "minimum_rival_reviews_for_rank": 3,
+  "product_sample_warning_below": 3,
+  "product_sha256": "0c4b8a908618cb0a6ae65bb93e5a5355a37eb1e0f1f04f356e9b72b5b986fe55",
+  "encoded_review_sha256": "70f7137cabf414d48a19f4fdb1b005062b3595bdf593f87fbfddbb6ee84206bb"
+}
