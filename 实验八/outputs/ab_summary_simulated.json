@@ -1,0 +1,28 @@
+{
+  "sample_size": 24,
+  "denominator": "各方案有效答卷数",
+  "data_status": "由上传文件提供；系统不推定为真实用户数据",
+  "simulation": true,
+  "results": [
+    {
+      "variant": "A",
+      "sample_size": 12,
+      "click_mean": 3.0,
+      "purchase_mean": 2.67,
+      "click_high": 3,
+      "purchase_high": 1,
+      "click_high_percent": 25.0,
+      "purchase_high_percent": 8.33
+    },
+    {
+      "variant": "B",
+      "sample_size": 12,
+      "click_mean": 4.08,
+      "purchase_mean": 3.58,
+      "click_high": 10,
+      "purchase_high": 7,
+      "click_high_percent": 83.33,
+      "purchase_high_percent": 58.33
+    }
+  ]
+}

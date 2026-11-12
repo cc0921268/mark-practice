@@ -1,0 +1,4 @@
+﻿variant,sample_size,click_mean,purchase_mean,click_high,purchase_high,click_high_percent,purchase_high_percent
+A,12,3.0,2.67,3,1,25.0,8.33
+B,12,4.08,3.58,10,7,83.33,58.33
+

@@ -1,0 +1,22 @@
+﻿focal_brand,competitor,metric,metric_score_0_100,source_fields,focal_example_ids,competitor_example_ids,detail
+Skullcandy,Apple,consumer_overlap,0.0,encoded_reviews.json: pain_tags; review_id,,,shared_tag=none; all tag frequencies used in weighted Jaccard
+Skullcandy,Apple,product_overlap,31.25,clean_data.csv: title; listing_id,156452129136|306467399413,226529832415|267520497837|306633328373|336344343951,shared_segment=earbuds_anc_mentioned; full segment distributions used
+Skullcandy,Apple,price_overlap,35.0,clean_data.csv: price_usd; listing_id,127484595316|127578995066|326858081313|375792866933,226529832415|267520497837|306633328373|365908976407,shared_price_band=100_to_199; full band distributions used
+Skullcandy,Apple,brand_heat,100.0,clean_data.csv: reviews_count; listing_id,,306633328373|267520497837|389238584309|365966411610,median review count per rival listing; relative to candidate brands
+Skullcandy,JBL,consumer_overlap,0.0,encoded_reviews.json: pain_tags; review_id,,,shared_tag=none; all tag frequencies used in weighted Jaccard
+Skullcandy,JBL,product_overlap,56.25,clean_data.csv: title; listing_id,156452129136|306467399413,156919717604|156924871367|157047314834|187809534061,shared_segment=earbuds_anc_mentioned; full segment distributions used
+Skullcandy,JBL,price_overlap,39.2857,clean_data.csv: price_usd; listing_id,127484595316|127578995066|326858081313|375792866933,197921665260|205435866441,shared_price_band=100_to_199; full band distributions used
+Skullcandy,JBL,brand_heat,66.6667,clean_data.csv: reviews_count; listing_id,,177603481139|147040568641|156533274996|147057610001,median review count per rival listing; relative to candidate brands
+Skullcandy,Jabra,consumer_overlap,54.6763,encoded_reviews.json: pain_tags; review_id,R1NZFMP5E3V7DO|R3IJ6RANP5Z9KV|R3I10YETW6G46D,R3LE7R8KC2FNBN|R2ZIFDC71LMZTC|R291XLOCLTAGYX,shared_tag=battery; all tag frequencies used in weighted Jaccard
+Skullcandy,Jabra,product_overlap,18.75,clean_data.csv: title; listing_id,115660718399|115876353703|116900137858,167996758261,shared_segment=earbuds_anc_not_mentioned; full segment distributions used
+Skullcandy,Jabra,price_overlap,0.0,clean_data.csv: price_usd; listing_id,,,shared_price_band=none; full band distributions used
+Skullcandy,Jabra,brand_heat,16.6667,clean_data.csv: reviews_count; listing_id,,167996758261,median review count per rival listing; relative to candidate brands
+Skullcandy,Sennheiser,consumer_overlap,23.5294,encoded_reviews.json: pain_tags; review_id,R1NZFMP5E3V7DO|R3IJ6RANP5Z9KV|R3I10YETW6G46D,R3KWX129FATHZ5,shared_tag=battery; all tag frequencies used in weighted Jaccard
+Skullcandy,Sennheiser,product_overlap,79.3269,clean_data.csv: title; listing_id,156452129136|306467399413,277649628008,shared_segment=earbuds_anc_mentioned; full segment distributions used
+Skullcandy,Sennheiser,price_overlap,71.1538,clean_data.csv: price_usd; listing_id,127484595316|127578995066|326858081313|375792866933,157389264418|267507619558|306714691223|317354049620,shared_price_band=100_to_199; full band distributions used
+Skullcandy,Sennheiser,brand_heat,83.3333,clean_data.csv: reviews_count; listing_id,,167843614480|306714691223|227054925629|157389264418,median review count per rival listing; relative to candidate brands
+Skullcandy,Sony,consumer_overlap,16.0,encoded_reviews.json: pain_tags; review_id,R1NZFMP5E3V7DO|R3IJ6RANP5Z9KV|R3I10YETW6G46D,R16JMJTVP2HUHC,shared_tag=battery; all tag frequencies used in weighted Jaccard
+Skullcandy,Sony,product_overlap,48.8971,clean_data.csv: title; listing_id,156452129136|306467399413,116644054554|135764312779|136280605768|156481999904,shared_segment=earbuds_anc_mentioned; full segment distributions used
+Skullcandy,Sony,price_overlap,75.0,clean_data.csv: price_usd; listing_id,127484595316|127578995066|326858081313|375792866933,127593330845|135764312779|136280605768|157114068853,shared_price_band=100_to_199; full band distributions used
+Skullcandy,Sony,brand_heat,41.6667,clean_data.csv: reviews_count; listing_id,,177603491174|316181744676|274493598619|306370375430,median review count per rival listing; relative to candidate brands
+
